@@ -107,7 +107,7 @@ function App() {
                 >
                   <Music className="text-pink-500" size={20} />
                   {isPlaying ? 
-                    <Pause className="text-pink-500 ml-1" size={16} /> : 
+                    <Pause className="text-pink-500 ml-1\" size={16} /> : 
                     <Play className="text-pink-500 ml-1" size={16} />
                   }
                 </button>
